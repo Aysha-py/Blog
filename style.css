@@ -1,26 +1,46 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  
 }
 
 body {
-    background-color: rgb(142, 142, 230);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header{
     background-color: white;
-    
+    width: 100vw;
+    position: fixed;
+   
 }
 .header ul{
     list-style: none;
     display: flex;
     justify-content: end;
+    margin-right: 10px;
+    
 
 }
 .header li{
-    padding: 30px;
+    padding: 20px;
+   
+    
+    
 }
-.center-page{
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header li:hover{
+    background-color: tan;
+    border: 1px solid;
+    font-style: italic;
+   
+}
+#center-page{
     background-color:tan;
     display: flex;
     justify-content: space-between;
@@ -50,9 +70,84 @@ body {
 .footer{
     background-color: white;
 }
-.author{
-    padding: 30px;
+#author{
+    height: 50vh;
     background-color: rgb(233, 232, 232);
-    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top:50px;
+}
+.author-text{
+    max-width: 70vw; 
+    padding: 18px;
+    margin: auto;
+    
+   
 }
 
+.author-img{
+    
+    background-image:url(../blog/img/ben-sweet.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-size: cover;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#projects{
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+}
+.projects-column{
+    display: flex;
+    margin: 30px;
+   
+    
+   
+
+
+}
+.grid1 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  
+    padding:20px;
+    margin:5px;
+    
+    
+    
+   
+    
+   
+    
+}
+.grid2 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    
+    padding:20px;
+    margin:5px;
+    
+    
+   
+}
+.grid3 img{
+    width: 100%;
+    height: auto;
+   
+    margin-bottom: 30px;
+    padding:20px;
+    margin:5px;
+    
+   
+    
+    
+}
