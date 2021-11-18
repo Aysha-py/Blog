@@ -7,7 +7,7 @@
 
 body {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
 }
 .header{
     background-color: white;
@@ -38,6 +38,7 @@ body {
     background-color: tan;
     border: 1px solid;
     font-style: italic;
+    transition: background-color 2s ease-out 100ms;
    
 }
 #center-page{
@@ -60,12 +61,14 @@ body {
 }
 .home-txt{
     max-width:50vw;
-    overflow-y: hidden;
+    
     padding: 30px;
     margin: auto;
 }
 .home-txt p{
     margin-top: 50px;
+    font-size: 1rem;
+    overflow-y: hidden;
 }
 .footer{
     background-color: white;
@@ -108,11 +111,11 @@ body {
     display: flex;
     margin: 30px;
    
-    
-   
-
-
 }
+#projects p{
+        font-size: 1rem;
+}
+
 .grid1 img{
     width: 100%;
     height: auto;
@@ -132,7 +135,6 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 30px;
-    
     padding:20px;
     margin:5px;
     
@@ -142,15 +144,38 @@ body {
 .grid3 img{
     width: 100%;
     height: auto;
-   
     margin-bottom: 30px;
-    padding:20px;
+    padding: 20px;
     margin:5px;
     
    
     
     
 }
-.projects-column h3{
-    font-size: 1.5rem;
+.projects-column a {
+    text-decoration: none;
+    color:black;
+
 }
+
+.projects-column p:hover{
+    background-color: tan;
+    transition: background-color 2s ease-out 100ms;
+  
+    
+
+}
+.projects-column p{
+    width: 200px;
+    height: 70px;
+    padding:10px;
+}
+
+#footer{
+    height: 50vh;
+}
+#footer img{
+    width: 100%;
+    height: auto;
+}
+
