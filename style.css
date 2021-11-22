@@ -13,7 +13,6 @@ body {
     background-color: black;
     width: 100vw;
     position: fixed;
-   
 }
 .header ul{
     list-style: none;
@@ -46,7 +45,7 @@ body {
    
 }
 #center-page{
-    
+    background-color: black;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -60,20 +59,21 @@ body {
 #home-img {
     width: 100%;
     height: auto;
-    background-image: url(../Blog/img/home\ image.jpg);
+    background-image: url(./img/home-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .home-txt{
     max-width:50vw;
-    
+    color: white;
     padding: 30px;
     margin: auto;
 }
 .home-txt p{
     margin-top: 50px;
     font-size: 1rem;
+    color: white;
     overflow-y: hidden;
 }
 
@@ -96,28 +96,37 @@ body {
 
 .author-img{
     
-    background-image:url(../blog/img/ben-sweet.jpg);
+    background-image:url(./img/ben-sweet.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
-    border-radius: 10px;
     background-size: cover;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    background-position: center;
+    border-radius: 10px;
+    margin:-30px 0px 20px 30px;
     
 }
 
 #projects{
-    background-color: white;
+    background-color: black;
     text-align: center;
+    color: white;
+    padding: 20px;
 }
+
 .projects-column{
     display: flex;
     margin: 30px;
+    
    
+}
+#projects h1{
+    margin-top: 50px;
 }
 #projects p{
         font-size: 1rem;
+        color: white;
+        margin-top: 20px;
 }
 
 .grid1 img{
@@ -174,32 +183,72 @@ body {
     height: 70px;
     padding:10px;
 }
-#footer{
+footer{
 
-    width: 100vw;
-    height: fit-content;
- 
-}
-
-#footer img{
     width: 100%;
+    background-image: url(./img/footer.jpg);
     height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
 }
-#footer-img h3{
-    position: relative;
-    bottom: -200px;
+footer i{
+    padding: 20px;
+    margin-top: 400px;
     color: white;
-    left: -30px;
-    font-size: 2vw;
-    outline: black;
+}
+footer h3{
+    
 }
 
-.icons{
-    position: relative;
-    top: -300px;
-    left: -20px;
-    color:white;
-}
-.icons i{
-    padding:30px;
+
+@media screen and (max-width: 460px) {
+    .header{
+       
+    }
+    .header ul{
+        padding:2px;
+        display:flex;
+       flex-direction: column;
+    }
+    .header li{
+        padding: 2px;
+    }
+    .header a{
+        font-size:1em;
+    }
+    #center-page{
+        display:grid;
+       
+        
+    }
+    #home-img{
+        background-image: url(./img/home-image.jpg);
+        
+  
+    }
+    
+    #author{
+        display: grid;
+       margin:0px;
+      
+    }
+    .author-img{
+        background-image: url(./img/ben-sweet.jpg);
+        width: 100%;
+        height: auto;
+    }
+    #projects{
+        background-color: white;
+        color: black;
+    }
+    #projects p{
+        color:black;
+    }
+    .projects-column{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
