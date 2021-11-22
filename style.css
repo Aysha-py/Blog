@@ -46,19 +46,18 @@ body {
 }
 #center-page{
     background-color: black;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height:80vh;
+    /* height:80vh; */
     margin-top: -16px;
     overflow-y: hidden;
-    
-    
-    
 }
 #home-img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     background-image: url(./img/home-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -214,28 +213,36 @@ footer i{
     }
     .header a{
         font-size:1em;
-    }
-    #center-page{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-       background-color: violet;
-     
-    }
-    #home-img{
-        padding: 0px;
-    }
     
-    .home-txt{
-       
-       margin:0px;
-    }
-
-    .home-txt p{
-        text-align: justify;
-        margin:0px;
         
     }
-    
+    #center-page{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    #home-img{
+        width: auto;
+        margin: 0px;
+        padding:300px;
+    }
+    .home-txt{
+        width: 100vw;
+        margin: 6px;
+        padding: 5px;
+    }
+    .home-txt p{
+        width: 100vw;
+        margin:10px;
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .home-txt h3{
+        width: 100vw;
+        text-align: center;
+    }
     #author{
         display: flex;
         flex-direction: column-reverse;
@@ -247,7 +254,7 @@ footer i{
     .author-img{
         
         width: 100%;
-        padding:100px;
+        
         
        
 
