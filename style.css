@@ -226,6 +226,7 @@ footer i{
         width: auto;
         margin: 0px;
         padding:300px;
+        background-position: center;
     }
     .home-txt{
         width: 100vw;
@@ -248,13 +249,19 @@ footer i{
         flex-direction: column-reverse;
         padding:0px;
         margin-left:-150px;
+        margin-top: 50px;
+        
       
       
     }
     .author-img{
         
         width: 100%;
-        
+        height: auto;
+       padding: 70px 70px 70px 50px;
+       margin: auto;
+       border-radius: 0px;
+       
         
        
 
