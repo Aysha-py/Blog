@@ -254,6 +254,27 @@ footer h3{
         grid-template-columns: 1fr;
     }
     footer{
-
+        background-size: cover;
+    }
+    footer h3{
+        margin:20px;
+       padding:40px;
+        color: white;
+        
+    }
+    #bottom a{
+        margin:5px;
+        text-decoration: none;
+        
+    }
+    #bottom i{
+       margin-top:100px;
+       font-size:3vw;
+       
+    }
+   #bottom p{
+        text-align: center;
+        color: white;
     }
 }
+
