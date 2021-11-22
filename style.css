@@ -225,18 +225,18 @@ footer h3{
         
     }
     #home-img{
-        background-image: url(./img/home-image.jpg);
+        
         
   
     }
     
     #author{
         display: grid;
-       margin:0px;
+      
       
     }
     .author-img{
-        background-image: url(./img/ben-sweet.jpg);
+        
         width: 100%;
         height: auto;
     }
@@ -246,9 +246,14 @@ footer h3{
     }
     #projects p{
         color:black;
+        padding:5px;
+        text-align: justify;
     }
     .projects-column{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    footer{
+
     }
 }
