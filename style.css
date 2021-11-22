@@ -199,17 +199,13 @@ footer i{
     margin-top: 400px;
     color: white;
 }
-footer h3{
-    
-}
+
 
 
 @media screen and (max-width: 460px) {
-    .header{
-       
-    }
+    
     .header ul{
-        padding:2px;
+        padding:10px;
         display:flex;
        flex-direction: column;
     }
@@ -220,25 +216,46 @@ footer h3{
         font-size:1em;
     }
     #center-page{
-        display:grid;
-       
-        
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+       background-color: violet;
+     
     }
     #home-img{
+        padding: 0px;
+    }
+    
+    .home-txt{
+       
+       margin:0px;
+    }
+
+    .home-txt p{
+        text-align: justify;
+        margin:0px;
         
-        
-  
     }
     
     #author{
-        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
+        padding:0px;
+        margin-left:-150px;
       
       
     }
     .author-img{
         
         width: 100%;
-        height: auto;
+        padding:100px;
+        
+       
+
+    }
+    .author-text p{
+        width: 100vw;
+        padding: 10px;      
+        text-align: justify;
     }
     #projects{
         background-color: white;
