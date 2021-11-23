@@ -14,6 +14,7 @@ body {
     width: 100vw;
     position: fixed;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
 }
 .header ul{
@@ -26,8 +27,7 @@ body {
 }
 .header button{
     margin: 30px;
-    cursor: not-allowed;
-    pointer-events: none;
+   
     
     
 
@@ -217,7 +217,10 @@ footer a{
 
 
 @media screen and (max-width: 460px) {
-    
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .header ul{
         padding:10px;
         display:flex;
@@ -232,9 +235,9 @@ footer a{
         
     }
     .header button{
-        margin: 30px;
-    cursor: pointer;
-    pointer-events:visible;
+        margin: 5px;
+        cursor: pointer;
+  
     }
     #center-page{
         height: auto;
