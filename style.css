@@ -38,12 +38,9 @@ body {
 
 }
 .header li{
-    margin-top: 30px;
+    margin: 30px;
     color: white;
     margin-right: 30px;
-    
-   
-    
     
 }
 .header a{
@@ -53,8 +50,9 @@ body {
 }
 
 .header li:hover{
-    background-color: tan;
+    background-color:black;
     border: 1px solid;
+    border-radius: 10px;
     font-style: italic;
     transition: background-color 2s ease-out 100ms;
    
