@@ -18,9 +18,13 @@ body {
     list-style: none;
     display: flex;
     justify-content: end;
-   margin-right: -50px;
+   margin-right: -120px;
     
 
+}
+ul button{
+  
+    display: hidden;
 }
 .header li{
     margin-top: 15px;
@@ -197,6 +201,9 @@ footer i{
     padding: 20px;
     margin-top: 400px;
     color: white;
+}
+footer a{
+    text-decoration:none;
 }
 
 
