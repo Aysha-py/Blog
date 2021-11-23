@@ -232,7 +232,9 @@ footer a{
         
     }
     .header button{
-        
+        margin: 30px;
+    cursor: pointer;
+    pointer-events:visible;
     }
     #center-page{
         height: auto;
