@@ -31,6 +31,7 @@ body {
 }
 .header button{
     margin: 30px;
+    display: none;
    
     
     
@@ -230,9 +231,7 @@ footer a{
         display:flex;
        flex-direction: column;
     }
-    .header li{
-        padding: 2px;
-    }
+    
     .header a{
         font-size:1em;
     
@@ -241,6 +240,7 @@ footer a{
     .header button{
         margin: 5px;
         cursor: pointer;
+        display: block;
   
     }
     #center-page{
