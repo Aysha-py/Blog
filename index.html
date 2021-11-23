@@ -16,18 +16,17 @@
 <body>
 
     <div class="main">
-        <div class="header">
+        <div class="header" >
             
-            <ul>
+            <ul id="navlist">
                 <li><a href="#">Home</li></a>
                 <li><a href="#author">Author</li></a>
                 <li><a href="#projects">projects</li></a>
                 <li><a href="#bottom">Contact us</li></a>
-                <li><button type="button" onclick="" class="btn-close btn-close-white" aria-label="Close"></button></li>
                 
             </ul>
              
-            
+            <button type="button" onclick="navCollapse()" class="btn-close btn-close-white" aria-label="Close"></button>
 
         </div>
 
@@ -151,5 +150,20 @@
         </div>
        <p>Designed by Aysha.M</p>    
     </footer>
+
+    <script>
+
+        function navCollapse(){
+            var x = document.getElementById("navlist");
+            if(x.style.display==="none"){
+                x.style.display ="block"
+            
+            }
+            else{
+                x.style.display="none";
+            }
+
+        }
+    </script>
 </body>
 </html>

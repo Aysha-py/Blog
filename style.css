@@ -13,18 +13,25 @@ body {
     background-color: black;
     width: 100vw;
     position: fixed;
+    display: flex;
+    justify-content: space-between;
 }
 .header ul{
     list-style: none;
     display: flex;
     justify-content: end;
-   margin-right: -120px;
+
     
 
 }
-ul button{
-  
-    display: hidden;
+.header button{
+    margin: 30px;
+    cursor: not-allowed;
+    pointer-events: none;
+    
+    
+
+
 }
 .header li{
     margin-top: 15px;
@@ -48,6 +55,7 @@ ul button{
     transition: background-color 2s ease-out 100ms;
    
 }
+
 #center-page{
     background-color: black;
     /* display: flex; */
@@ -221,6 +229,9 @@ footer a{
     .header a{
         font-size:1em;
     
+        
+    }
+    .header button{
         
     }
     #center-page{
