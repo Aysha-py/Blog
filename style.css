@@ -225,12 +225,13 @@ footer a{
     .header{
         display: flex;
         flex-direction: column-reverse;
-        display: none;
+        
     }
     .header ul{
         padding:10px;
         display:flex;
        flex-direction: column;
+       display: none;
     }
     
     .header a{
