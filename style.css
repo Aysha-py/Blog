@@ -148,7 +148,12 @@ body {
     display: flex;
     margin: 30px;
     
+    
    
+}
+.projects-column p{
+  
+    background-color: white;
 }
 #projects h1{
     margin-top: 50px;
@@ -246,6 +251,7 @@ footer a{
         display:flex;
        flex-direction: column;
        display: none;
+       transition:cubic-bezier(0.55, 0.085, 0.68, 0.53)
     }
     
     .header a{
